@@ -1,0 +1,44 @@
+{
+    "EN": {
+        "menu": [
+            "Home", "General Menu", "Sushi Menu", "Gallery", "Contact", "Reservation"
+        ],
+        "content": {
+            "home": [
+                {
+                    "title": "Reservations can be done online.",
+                    "description": "We will like to ask you to reserve if you are with 8 or more persons and please keep your choices upto 3 different and 1 vegetarian dish."
+                },
+                {
+                    "title": "Taste Of Asia with Sushi and Grill.",
+                    "description": "Taste Of Asia is a new concept in Leuven, Belgium, with the capacity of more than 100 persons. We serve you with fresh and authentic dishes from <b>Thai, Chinese, Korean, Indian, Nepalese</b> and <b>Tibetan to Japanese Sushi</b> in a pleasant ambience."
+                }
+            ],
+            "hours": {
+                "weekdays": ["MON to THU", "1200-1430, 1700-2230"],
+                "weekends": ["FRI to SUN", "1200-2230"]
+            }
+        }
+    },
+    "DU": {
+        "menu": [
+            "Home", "Algemene Menu", "Sushi Menu", "Galerij", "Contact", "Reservatie"
+        ],
+        "content": {
+            "home": [
+                {
+                    "title": "Reservaties kunnen online gemaakt worden.",
+                    "description": "Wij vragen vanaf 8 personen vooraf te reserveren en gelieve uw keuze te beperken tot 3 verschilllende gerechten +1 vegetarische gerecht."
+                },
+                {
+                    "title": "Taste Of Asia met Sushi en Grill.",
+                    "description": "Taste Of Asia is een nieuw concept in Leuven, met een capaciteit van meer dan 100 personen. Wij serveren u met verse en authentieke gerechten van de <b>Thaise, Chinese, Koreaanse, Indiase, Nepalese, Tibetaanse tot Japanese sushi</b> in een aangename sfeer."
+                }
+            ],
+            "hours": {
+                "weekdays": ["MAAN to DON", "1200-1430, 1700-2230"],
+                "weekends": ["VRIJ to ZON", "1200-2230"]
+            }
+        }
+    }
+}

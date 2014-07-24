@@ -1,0 +1,226 @@
+/*
++    App-specific LESS/CSS would go here, but to make your
++    application easier to maintain, you should try to
++    minimize the use of custom CSS.
++*/
+
+.main-view {
+}
+
+.hidden-menu-scroller {
+    background: #32394a;
+}
+
+.hidden-menu-item {
+    border-bottom: 1px solid #161b25;
+    border-top: 1px solid #5f6673;
+    color: lightgray;
+    padding: 6px 8px 0 8px;
+}
+
+.menu-toolbar {
+    height: 35px;
+    font-size: 1.5em;
+    color: lightgray;
+    text-align: center;
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#434b5b), to(#242b39));
+    background-image: -webkit-linear-gradient(#434b5b, #242b39);  
+}
+
+.panels-outer-sliding-panels > * {
+    min-width: 80%;
+    background-color: #EAEAEA;
+    -moz-box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+    box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+}
+
+.panels-inner-sliding-panels > * {
+    min-width: 100%;
+    background-color: #EAEAEA;
+    -moz-box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+    box-shadow: -4px 0 4px rgba(0,0,0,0.3);
+}
+
+.panels-sample-sliding-item {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.panels-sample-sliding-content {
+    text-align: left;
+    padding: 10px;
+}
+
+.goto-menu-btn, .go-back-btn {
+    position: absolute;
+    left: 0px;
+    border: none;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.back-btn-text {
+    font-size: 1.7em;
+    color: black;
+    margin-right: 10px;
+}
+
+.next-btn {
+    position: absolute; right: 25px; bottom: 15%;
+}
+
+.gallery-next-btn {
+    position: absolute; right: 25px; bottom: 25%;
+}
+
+.gallery-list-item-text {
+    display: inline-block; vertical-align: top; margin: 20px; font-size: 2em; position: absolute; text-align: left;
+}
+
+.toolbar {
+    background: none;
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #6E6E6E 0%, #000000 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #6E6E6E 0%, #000000 100%);
+
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, circle farthest-corner, #6E6E6E 0%, #000000 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #6E6E6E), color-stop(1, #000000));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #6E6E6E 0%, #000000 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(circle farthest-corner at center, #6E6E6E 0%, #000000 100%);
+}
+
+.inner-panel-scroller-content {
+    text-align: justify;
+    background: url('../../assets/images/1.jpg') 50% 50% no-repeat scroll;
+    background-size: cover;
+}
+
+.inner-panel-large-image-scroller-content {
+    text-align: justify;
+    background: url('../../assets/images/bg.png') repeat scroll;
+}
+
+.home-content {
+    margin: 15px;
+    padding: 10px;
+    background: rgba(255,255,255, 0.7);
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+h1 {
+    margin: 0;
+}
+
+p{
+    margin-top: 0;
+}
+
+.list-item-selected {
+    background: rgba(0,0,0,0.5);
+    color: white;
+}
+
+.general-menu-repeater, .sushi-menu-repeater, .general-menu-expanded-repeater, 
+.sushi-menu-expanded-repeater, .gallery-repeater, .contact-content {
+    background: rgba(255,255,255, 0.7);
+    margin: 10px;
+    padding: 10x;
+}
+
+.reservation-container {
+    background: url('../../assets/images/bg.png') repeat scroll;
+    margin: 10px;
+    padding: 20px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.onyx-sample-divider {
+    color: #F49200;
+    text-transform: uppercase;
+    font-family: Segoe UI, Prelude Medium, Helvetica, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.dish-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.dish-price {
+    font-size: 0.85em;
+    color: rgba(0,0,0,0.55);
+}
+
+.dish-description {
+    font-size: 0.9em;
+}
+
+.pinDebug {
+    background: none;
+    color: none;
+}
+
+.google-map {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    opacity: 0.85;
+}
+
+.contact-content {
+    text-align: center;
+}
+
+.input-deco {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+.reservation-input-field {
+    width: 100%;
+}
+
+.lan-selector-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lan-selector{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.lan-selected {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 479px) {
+    .gallery-next-btn {
+        height: 80px;
+        right: 0;
+    }
+    .gallery-list-item-text {
+        font-size: 1.2em;
+    }
+}
